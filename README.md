@@ -14,7 +14,7 @@ Use case agnostic application containing a login and signup feature that include
     * npm install
 3. create .env file in client directory
     * Go to https://console.firebase.google.com under Project Settings > General > Your Apps, copy the section that reads:
-        <img width="297" alt="Screen Shot 2022-11-12 at 7 35 53 PM" src="https://user-images.githubusercontent.com/12160369/201504359-998ceef1-fdde-49c1-8586-9962493341f4.png">
+        * <img width="297" alt="Screen Shot 2022-11-12 at 7 35 53 PM" src="https://user-images.githubusercontent.com/12160369/201504359-998ceef1-fdde-49c1-8586-9962493341f4.png">
         * Create environment variables in .env and fill in credentials from Firebase
             * See firebase_auth/client/src/firebase.js for required environment variables
                   <img width="469" alt="Screen Shot 2022-11-12 at 7 42 40 PM" src="https://user-images.githubusercontent.com/12160369/201504533-b4f5ca4f-248c-4e34-8223-b8ca0afa53cf.png">
