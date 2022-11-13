@@ -1,0 +1,97 @@
+body {
+  background-color: black;
+}
+#root {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.login-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr 8fr 1fr 1fr;
+  grid-column: 2;
+  grid-row: 2;
+  justify-content: center;
+  align-items: center;
+}
+.login-title {
+  display: grid;
+  grid-row: 1;
+  justify-content: center;
+}
+.login-form {
+  display: grid;
+  grid-row: 2;
+  margin-bottom: 1em;
+}
+.usertype-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.usertype-select {
+  background-color: transparent;
+  color: white;
+  margin-bottom: 1em;
+}
+.usertype-label {
+
+}
+.forgot-password-div
+.forgot-password-link {
+  display: grid;
+  grid-column: 1;
+  grid-row: 3;
+  font-size: .8em;
+  color: grey;
+}
+.signup-link-div {
+  font-size: .8em;
+}
+.signup-link {
+  display: inline;
+  grid-row: 4;
+  font-size: .8em;
+  color: grey;
+}
+.input-field {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid grey;
+  color: white;
+}
+.login-email-input {
+  padding: 1em 0em 1em;
+  margin: 0em 0em 2em;
+}
+.login-email-input:focus {
+  outline: none
+}
+.login-password-input:focus {
+  outline: none;
+}
+.login-password-input {
+  padding: 0em 0em 1em;
+  margin: 0em 0em 1em;
+}
+.login-button {
+  margin-top: .2em;
+}
+.input-label-shown {
+  margin: 0em 0em .5em;
+}
+.input-label-hidden {
+  display: none;
+}
+.login-email-label
+.login-password-label
+
+
+.btn
